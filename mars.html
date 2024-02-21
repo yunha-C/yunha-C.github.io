@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MARS Wildlife Hospital</title>
+<link rel="stylesheet" href="mars.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+	<section class="header">
+	
+		<nav>
+		<a href="mars.html"><img src="sources/logo.png"></a>
+		   <div class="nav-links" id="navLinks">
+			  <i class="fa fa-xmark" onclick="hideMenu()"></i>
+		  	 <ul>
+			   <li><a href="">About us</a></li>
+			   <li><a href="">Our work</a></li>
+			   <li><a href="">Join us</a></li>
+			   <li><a href="">Contact</a></li>
+			   <li><a href="">Help us</a></li>
+		     </ul>
+		  </div>
+		    <i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	
+	<div class="text-box">
+		<h1>Our Mission is</h1>
+		<p>To Conserve and protect native wildlife <br>and its natural habitat</p>
+		<a href="" class="hero-btn">Emergency</a>
+	</div>
+		<div class="floating-button">
+		Emergency
+		</div>
+
+</section>
+	
+<!---------- Rescue ----------->
+	<section class="rescue">
+		<div class="row">
+			<div class="rescue-column">
+			<h1>Patients rescued so far in 2024</h1>
+			<p>We rescued 64 animals until now in 2024. Thank you to all our generous donors who support MARS through sponsorship, in kind, and donations to ensure that we are always there for the wildlife that need us!</p>
+			<a href="" class="donate-btn">Donate</a>
+			</div>
+			<div class="rescue-column">
+					<h2>64</h2>
+				</div>
+			</div>
+	</section>
+	
+<!---------- Join Our Program ---------->
+    
+    <section class="program">
+	 <h1>Join Our Program</h1>
+        <p>Mentorship and education are among our core guiding principles at MARS. As a result, every year the MARS Wildlife Hospital offers young aspiring wildlife rehabilitators an opportunity to gain hands on experience working with injured, ill or orphaned wildlife.</p>
+		<div class="row">
+                <div class="program-column">
+                    <img src="sources/work ex.jpeg">
+                    <h3>Work Experience Program</h3>
+                </div>
+                <div class="program-column">
+                    <img src="sources/volunteer2.jpeg">
+                    <h3>Volunteer Opportunity</h3>
+                </div>
+                <div class="program-column">
+                    <img src="sources/tour2.jpg">
+                    <h3>Group Tours</h3>
+                </div>
+            </div>
+	</section>
+	
+<!---------- Call To Action ---------->
+
+<section class="cta">
+	<h1>Open Friday to Sunday, 10am to 3pm <br>Drop in to shop and explore our exhibits hall or…</h1>
+	<a href="" class="donate-btn">Book A Tour</a>
+	</section>
+	
+<!---------- Footer ---------->
+
+<section class="footer">
+	<h3>Call the hospital at 250-337-2021 ext. 0</h3>
+	<p>Bringing an injured wild animal to MARS: Drive to the donations table at the end of the parking lot. <br>The staff will come retrieve the patient from your vehicle.</p>
+	<div class="icons">
+	<i class="fa-brands fa-facebook" ></i>
+	<i class="fa-brands fa-instagram"></i>
+	<i class="fa-brands fa-x-twitter"></i>
+	<i class="fa-brands fa-linkedin"></i>
+	</div>
+	<p>Made by Yunha C</p>
+	</section>
+	 
+<!----JavaScript for toggle menu---->
+<script>
+		var navLinks = document.getElementById("navLinks");
+		 
+		function showMenu() {
+			navLinks.style.right = "0";	
+		}
+		function hideMenu() {
+			navLinks.style.right = "-200px";
+		}
+		 
+</script>
+	 
+	 
+	 
+</body>
+</html>
